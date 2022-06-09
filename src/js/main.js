@@ -1,3 +1,4 @@
+import { productList } from "./data";
 const productList = [
     {
         id: 1, 
@@ -11,14 +12,14 @@ const productList = [
         name: "Product B", 
         img: "https://picsum.photos/300/300", 
         time: 10, 
-        type: "snack",
+        type: "meat",
     },
     {
         id: 3, 
         name: "Product C", 
         img: "https://picsum.photos/300/300", 
         time: 60, 
-        type: "snack",
+        type: "fish",
     },
 ];
 function showProduct(products){ 
